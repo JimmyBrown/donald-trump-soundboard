@@ -38,6 +38,7 @@
 		BFFF78901C476D6C008563F2 /* stupid_people.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFFF78771C476D6C008563F2 /* stupid_people.mp3 */; };
 		BFFF78911C476D6C008563F2 /* thank_you_darling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFFF78781C476D6C008563F2 /* thank_you_darling.mp3 */; };
 		BFFF78931C477853008563F2 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF78921C477853008563F2 /* BlueButton.swift */; };
+		BFFF78951C485830008563F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF78941C485830008563F2 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		BFFF78771C476D6C008563F2 /* stupid_people.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stupid_people.mp3; sourceTree = "<group>"; };
 		BFFF78781C476D6C008563F2 /* thank_you_darling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thank_you_darling.mp3; sourceTree = "<group>"; };
 		BFFF78921C477853008563F2 /* BlueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
+		BFFF78941C485830008563F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFF78951C485830008563F2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 		BFFF78411C476A6D008563F2 = {
 			isa = PBXGroup;
 			children = (
+				BFFF78941C485830008563F2 /* AVFoundation.framework */,
 				BFFF784C1C476A6D008563F2 /* donald-trump-soundboard */,
 				BFFF784B1C476A6D008563F2 /* Products */,
 			);
