@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="donald_trump_soundboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,207 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="us-flag-vert" translatesAutoresizingMaskIntoConstraints="NO" id="Tfj-lz-U6W">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvq-3I-NrB" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="180" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8a-vS-zEz" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="282" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xw7-8j-iOX" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="435" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn3-4d-l8x" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="231" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNr-oM-QVN" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="333" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jub-A9-3xZ" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="129" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="BRE-zI-ft2"/>
+                                    <constraint firstAttribute="width" constant="82" id="Bx0-L0-rea"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxR-0b-Ncg" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="180" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9p-s1-mT3" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="282" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REJ-Cg-mps" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="231" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGF-7I-Y70" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="435" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-Op-Hb3" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="333" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vu-TB-7JJ" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="435" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJm-Bd-l1d" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="384" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhV-zN-aUL" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="231" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buj-QG-4as" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="282" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tys-0s-3A8" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="384" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6p6-mx-ayl" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="180" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFo-iW-2Nh" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="486" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCO-IZ-udf" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="333" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMl-bV-gJK" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="486" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVD-P7-nnr" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="486" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4n-hE-K0b" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="259" y="537" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNO-wN-S7Z" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="537" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhm-PS-x6p" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="382" y="384" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hA-h2-k2E" customClass="BlueButton" customModule="donald_trump_soundboard" customModuleProvider="target">
+                                <rect key="frame" x="138" y="537" width="82" height="43"/>
+                                <color key="backgroundColor" red="0.20659756109999999" green="0.441179971" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tfj-lz-U6W" secondAttribute="bottom" id="7v0-ws-xJV"/>
+                            <constraint firstItem="Jub-A9-3xZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="9wR-5j-duK"/>
+                            <constraint firstItem="Tfj-lz-U6W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="E1t-1Q-wIz"/>
+                            <constraint firstAttribute="trailing" secondItem="Tfj-lz-U6W" secondAttribute="trailing" id="i49-dj-FHn"/>
+                            <constraint firstItem="Tfj-lz-U6W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vTX-b7-rMI"/>
+                            <constraint firstItem="Jub-A9-3xZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yto-vx-i7I"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="163" y="351"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="us-flag-vert" width="2000" height="3800"/>
+    </resources>
 </document>
